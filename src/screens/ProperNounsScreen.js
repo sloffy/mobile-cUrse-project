@@ -116,7 +116,6 @@ export default function ProperNounsScreen({ route, navigation }) {
     : nouns.filter(noun => noun.category === selectedCategory);
 
   const groupedNouns = CATEGORIES.reduce((acc, cat) => {
-    if (cat.value === 'unknown') return acc;
     const categoryNouns = nouns.filter(n => n.category === cat.value);
     if (categoryNouns.length > 0) {
       acc[cat.value] = {
