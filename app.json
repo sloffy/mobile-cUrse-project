@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Лингвистический анализ текстов",
+    "slug": "text-linguistic-analysis",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "icon": "./assets/icon.png",
+    "favicon": "./assets/favicon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.textanalysis.linguistic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.textanalysis.linguistic",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d5f15c2-1125-4fde-87e2-f273252ceef8"
+      }
+    }
+  }
+}
